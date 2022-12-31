@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Shalimar&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>1️⃣7️⃣ Quote Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quote-container" id="quote-container">
+        <div class="quote-container__text">
+          <i class="fas fa-quote-left"></i>
+          <span class="quote" id="quote"></span>
+        </div>
+
+        <div class="quote-container__author">
+          <span class="author" id="author"></span>
+        </div>
+
+        <div class="quote-container__button">
+          <button class="button-twitter btn" id="twitter" title="Tweet This!!">
+            <i class="fab fa-twitter"></i>
+          </button>
+
+          <button class="new-quote btn" id="new-quote">New Quote</button>
+        </div>
+      </div>
+
+      <!-- Loader -->
+      <div class="loader"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
